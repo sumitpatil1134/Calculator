@@ -57,3 +57,42 @@ button{
   
     color: orange;
 }
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 480px) {
+    .Calculator {
+        width: 90%;
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    input {
+        height: 45px;
+        font-size: 28px;
+    }
+
+    button {
+        width: 55px;
+        height: 55px;
+        margin: 6px;
+        font-size: 18px;
+    }
+}
+
+/* ===== EXTRA SMALL DEVICES ===== */
+@media (max-width: 360px) {
+    .Calculator {
+        width: 95%;
+        padding: 12px;
+    }
+
+    button {
+        width: 48px;
+        height: 48px;
+        margin: 5px;
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 24px;
+    }
+}
